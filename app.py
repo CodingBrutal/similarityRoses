@@ -6,8 +6,7 @@ from tensorflow.keras.applications import VGG16
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.vgg16 import preprocess_input
 from sklearn.metrics.pairwise import cosine_similarity
-import cv2
-import matplotlib.pyplot as plt
+
 
 # Inisialisasi Flask app
 app = Flask(__name__)

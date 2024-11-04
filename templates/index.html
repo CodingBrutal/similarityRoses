@@ -4,39 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Similarity Search</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-        h1 {
-            text-align: center;
-            padding: 20px 0;
-        }
-        .upload-section, .results-section {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .uploaded-image {
-            max-width: 300px;
-            margin-top: 20px;
-        }
-        .similar-image {
-            max-width: 200px;
-            margin: 10px;
-        }
-        .similar-images {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
